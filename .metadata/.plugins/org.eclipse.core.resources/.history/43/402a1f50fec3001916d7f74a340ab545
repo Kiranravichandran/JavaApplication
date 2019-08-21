@@ -1,0 +1,55 @@
+package version;
+
+import java.util.Scanner;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class Library {
+	private static final Logger logger=LoggerFactory.getLogger(main.class);
+    public boolean someLibraryMethod() {
+        return true;
+    }
+    public static void dble(int n)
+    { int t;
+    for(int i=1;i<=n;i++)
+{ t=i;
+for(int j=1;j<=5;j++)
+{
+logger.debug(t+"\t");
+t=2*t;
+}
+System.out.logger.debug("");
+}t=0;
+logger.debug("***");
+    }
+    public static void sqr(int n)
+    { int t;
+    for(int i=1;i<=n;i++) {
+t=i;
+for(int j=1;j<=5;j++) {
+logger.debug(t+"\t");
+t*=t;
+}
+logger.debug("");
+}
+logger.debug("***");
+    }
+    public static void fact(int n)
+    { 
+    float t1=0;
+for(int i=1;i<=n;i++)
+{t1=i;
+for(int j=1;j<=5;j++)
+{
+logger.debug(t1+"\t");
+t1=t1/2;
+}
+logger.debug("");
+}
+    }
+}
+
+
+
+

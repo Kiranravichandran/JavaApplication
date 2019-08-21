@@ -1,0 +1,51 @@
+package version;
+
+import java.util.Scanner;
+
+public class Library {
+    public boolean someLibraryMethod() {
+        return true;
+    }
+    public static void dble(int n)
+    { int t;
+    for(int i=1;i<=n;i++)
+{ t=i;
+for(int j=1;j<=5;j++)
+{
+System.out.print(t+"\t");
+t=2*t;
+}
+System.out.println("");
+}t=0;
+System.out.println("***");
+    }
+    public static void sqr(int n)
+    { int t;
+    for(int i=1;i<=n;i++) {
+t=i;
+for(int j=1;j<=5;j++) {
+System.out.print(t+"\t");
+t*=t;
+}
+System.out.println("");
+}
+System.out.println("***");
+    }
+    public static void fact(int n)
+    { 
+    float t1=0;
+for(int i=1;i<=n;i++)
+{t1=i;
+for(int j=1;j<=5;j++)
+{
+System.out.print(t1+"\t");
+t1=t1/2;
+}
+System.out.println("");
+}
+    }
+}
+
+
+
+
